@@ -20,13 +20,26 @@ html {
 .row {
   max-width: 1140px;
   margin: 0 auto;
-  text-transform: uppercase;
+  text-transform: uppercase;  
   display: flex;
-  justify-content: space-between;
 }
 .navigation {
-  list-style-type: none;
   display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 60px;
+  gap: 40px;
+  font-size: 18px;
+}
+.navigation a {
+  text-decoration: none;
+  color: white;
+}
+.navigation li:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  color: #cf6d17;
 }
 .hero-text-box {
   width: 1140px;
@@ -35,15 +48,16 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 240%;
   font-weight: 300px;
   word-spacing: 4px;  
 }
 .hero-text-box h1 {
+  font-size: 49px;
+  font-weight: normal;
   text-transform: uppercase;
 }
 .logo {
-  margin-top: 10px;
+  margin-top: 15px;
   height: 100px;
   width: auto;
 }
