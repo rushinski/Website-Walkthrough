@@ -89,4 +89,74 @@ html {
   border: 1px solid #cf6d17;
   color: #fff;
 }
- 
+
+
+.section-features {
+  padding: 80px 10px;
+}
+.row-features-header {
+  margin: auto;
+  max-width: 1140px;
+}
+h2 {
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+h2:after {
+  display: block;
+  height: 2px;
+  width: 100px;
+  background-color: #e67e22;
+  content: " ";
+  margin: auto;
+  margin-top: 30px;
+}
+.header-body-contain {
+  width: 800px;
+  margin: auto;
+}
+.row-features-body {
+  display: flex;
+  margin: 45px auto 0px auto;
+  width: 1140px;
+  height: 300px;
+}
+.boxes {
+  padding: 1%;
+  width: 25%;
+  height: 100%;
+  margin: auto auto auto 1%;
+}
+.icon-big {
+  font-size: 350%;
+  display: block;
+  color: #e67e22;
+  margin-bottom: 10px;
+  --ionicon-stroke-width: 20px;
+}
+.boxes h3 {
+  font-size: 110%;
+  margin-bottom: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.boxes p {
+  font-size: 90%;
+  line-height: 145%;
+}
+
+
+.meals-showcase {
+  width: 1140px;
+  height: 400px;
+}
+.img-row {
+  height: 50%;
+}
+.img-fit {
+  
+}
