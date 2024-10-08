@@ -140,7 +140,7 @@ h2:after {
   margin-bottom: 10px;
   --ionicon-stroke-width: 20px;
 }
-.boxes h3 {
+h3 {
   font-size: 110%;
   margin-bottom: 15px;
   font-weight: 300;
@@ -232,4 +232,42 @@ h2:after {
   height: 50px;
   width: auto;
   margin-right: 10px;
+}
+
+
+.locations {
+  width: 100%;
+  padding: 80px 10px;
+}
+.locs-holder {
+  display: flex;
+  margin: 60px auto auto auto;
+  width: 80%;
+}
+.locs-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  width: 22%;
+}
+.locs-info img {
+  width: 100%;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.icon-color {
+  color: #e67e22;
+  margin: 0px 14px 10px 0px;
+}
+.loc-img-info {
+  display: flex;
+}
+.locs-info a {
+  color: #e67e22;
+  text-underline-offset: 4px;
+}
+.locs-info a:hover {
+  color: #555;
+  text-decoration: none;
 }
