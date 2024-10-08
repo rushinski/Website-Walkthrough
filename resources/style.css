@@ -200,15 +200,36 @@ h2:after {
   margin-right: 50px;
 }
 .instructions {
-  border: solid;
   width: 50%;
-}
-.ins-boxes {
-  margin: 20px 50px 0px 20px;
   display: flex;
   flex-direction: column;
-  width: 200px;
-  height: 200px;
-  border: solid;
+  margin-top: 50px;
 }
-
+.ins-boxes {
+  margin: 0px 0px 0px 40px;
+  display: flex;
+  height: 100px;
+}
+.ins-boxes p {
+  width: 59%;
+}
+.circle-nums {
+  color: #e67e22;
+  border: 2px solid #e67e22;
+  display: inline-block;
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  padding: 5px;
+  font-size: 150%;
+  margin-right: 25px;
+}
+.btn-app:link, .btn-app:visited {
+  border: 0;
+}
+.btn-app img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
