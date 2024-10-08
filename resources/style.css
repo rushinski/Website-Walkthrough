@@ -271,3 +271,48 @@ h3 {
   color: #555;
   text-decoration: none;
 }
+
+
+.reviews {
+  padding: 80px 10px;
+  width: 100%;
+  height: fit-content;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+                    url("images/back-customers.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+.reviews-text {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 180px;
+}
+.blockquote:before {
+  content: "\201C";
+  font-size: 500%;
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+.blockquote {
+  width: 360px;
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+  margin-top: 40px;
+}
+.cite {
+  display: flex;
+  margin-top: 40px;
+  width: 100%;
+  align-items: center;
+}
+.fit-circle img {
+  height: 55px;
+  width: 55px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
