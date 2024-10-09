@@ -1,3 +1,4 @@
+html { scroll-behavior: smooth; }
 * {
   margin: 0;
   padding: 0;
@@ -456,4 +457,5 @@ h3 {
   color: #676969;
 }
 
-/* To Do: Make header stay at top of page when scrolling, make links on homepage and header work as wanted */
+/* Final Commit CSS */
+/* Notes: Was unsure if heading that followed was needed along with in the form section if it needed more interactivity */
