@@ -404,6 +404,56 @@ h3 {
   padding: 0px 5px;
   margin: 0px 0px 10px 0px;
 }
-
+.footer-background {
+  background-color: #333333;
+  padding: 45px 250px;
+}
+.header-footer {
+  display: flex;
+  justify-content: space-between; 
+}
+.sec-text {
+  display: flex;
+  gap: 25px;
+  font-size: 16px;
+}
+.sec-text a {
+  color: #676969;
+  text-decoration: none;
+}
+.sec-text a:hover {
+  color: #e8e8e8;
+  text-decoration: none;
+}
+.sec-icon {
+  display: flex;
+  margin-left: auto; 
+  align-items: center; 
+}
+.final-logos {
+  margin: 0px 0px 0px 20px;
+  width: 25px;
+  height: 25px;
+  color: #888888;
+}
+.f:hover {
+  color: #316FF6;
+}
+.t:hover {
+  color: #1DA1F2;
+}
+.g:hover {
+  color: #DB4437;
+}
+.i:hover {
+  color: #d62976;
+}
+.final-row {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  color: #676969;
+}
 
 /* To Do: Make header stay at top of page when scrolling, make links on homepage and header work as wanted */
