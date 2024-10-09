@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+*:focus {
+  outline: none;
+}
 html {
   color: #555;
   font-family: 'Lato', sans-serif;
@@ -323,7 +326,6 @@ h3 {
   padding: 80px 10px;
 }
 .price-boxes-container {
-  
   width: 75%;
   display: flex;
   justify-content: space-between;
@@ -378,5 +380,30 @@ h3 {
   color: #e67e22;
   margin-left: 1px;
 }
+
+
+.feedback-page {
+  width: 100%;
+  padding: 80px 10px;
+}
+.info-container {
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+  width: 45%;
+}
+.info-split {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.info-input {
+  font-weight: 500;
+  height: 40px;
+  padding: 0px 5px;
+  margin: 0px 0px 10px 0px;
+}
+
 
 /* To Do: Make header stay at top of page when scrolling, make links on homepage and header work as wanted */
